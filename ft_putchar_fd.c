@@ -5,6 +5,8 @@ void	ft_putchar_fd(char c, int fd)
 	write(fd, &c, 1);
 }
 
+//Después de compilar y ejecutar el ./a.out hay que poner en la terminal (si es necesario) fread (para leer) y fwrite (para escribir[pero dará error])
+//Aunque si das al enter dos veces (si el ./a.out te deja en un espacio en blanco) te devuelve lo escrito
 int	main(void)
 {
 	ft_putchar_fd('F', 1);
