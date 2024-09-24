@@ -22,7 +22,7 @@ void	ft_putstr_fd(char *s, int fd)
 	write(fd, s, ft_strlen(s));
 }
 
-//Este main sirve para las tres opciones
+//Ambos main sirven para las tres opciones
 int	main(void)
 {
 	char	s[2];
@@ -33,5 +33,12 @@ int	main(void)
 		s[1] = '\0';
 		ft_putstr_fd("Ff", 1);
 	}
+	return (0);
+}
+
+//El otro main
+int	main(void)
+{
+	ft_putstr_fd("Ff", 1);
 	return (0);
 }
