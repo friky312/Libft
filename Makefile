@@ -112,4 +112,5 @@ fclean: clean
 re: fclean $(NAME)
 
 #Le dice a make que estos nombres no corresponden a archivos sino a objetos para que no se confunda si existen archivos con esos nombres en el directorio
-.PHONY: all, fclean, re, clean, bonus
+.PHONY: all fclean re clean bonus
+#El .PHONY no puede ir con comas para separar
