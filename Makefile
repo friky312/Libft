@@ -12,7 +12,7 @@ CC = gcc
 #	-Wall: Habilita todas las advertencias recomendadas por el compilador
 #	-Werror: Convierte todas las advertencias en errores(no compila si hay advertencias)
 #	-Wextra: Habilita advertencias adicionales que  -Wall no incluye
-#	-I: Especifica los directorios donde buscarr archivos de cabecera(.h)
+#	-I: Especifica los directorios donde buscar archivos de cabecera(.h)
 CCFLAGS = -c -Wall -Werror -Wextra -I
 
 #ar es una herramienta para crear archivos de librería estática
